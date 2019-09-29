@@ -1,0 +1,17 @@
+{
+    "name": "Impecty\/laravel-extend-database",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Impecty",
+            "email": "876187035@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Impecty\\LaravelExtend\\Database\\": ""
+        }
+    }
+}
