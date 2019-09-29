@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require shineyork/laravel-extend-database
+$ composer require Impecty/laravel-extend-database
 ```
 
 ## 描述
@@ -19,11 +19,11 @@ Model::where('id', '1')->update([
 ]);
 ```
 
-如上的方式修改或者删除而观察者事件失效进一步扩展该功能，使用的方式只需要在模型中引用`ShineYork\LaravelExtend\Database\Eloquent\SEvents`即可
+如上的方式修改或者删除而观察者事件失效进一步扩展该功能，使用的方式只需要在模型中引用`Impecty\LaravelExtend\Database\Eloquent\SEvents`即可
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use ShineYork\LaravelExtend\Database\Eloquent\SEvents;
+use Impecty\LaravelExtend\Database\Eloquent\SEvents;
 
 class Category extends Model
 {
